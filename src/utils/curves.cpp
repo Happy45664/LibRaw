@@ -46,6 +46,7 @@ void LibRaw::cubic_spline(const int *x_, const int *y_, const int len)
   for (i = 1; i < len - 1; i++)
   {
     A[i][i] = 2 * (d[i - 1] + d[i]);
+	  //heklooo
     if (i > 1)
     {
       A[i][i - 1] = d[i - 1];
